@@ -105,12 +105,12 @@ Não existe arquitetura certa. Existe arquitetura **explicada**.
 
 ## Aulas de apoio na plataforma
 
-As aulas do módulo de desafios na plataforma da Jornada ajudam a estruturar cada etapa:
+O [**módulo de desafios na plataforma da Jornada**](https://suajornadadedados.curseduca.pro/m/lessons/desafios?moduleId=818&classId=2742) reúne, na mesma página, as aulas que ajudam a estruturar cada etapa. Escolha a aula na lista do módulo:
 
-- [**Estruturação do projeto**](https://suajornadadedados.curseduca.pro/m/lessons/desafios?moduleId=818&classId=2742)
-- [**Discovery e tomada de decisões**](https://suajornadadedados.curseduca.pro/m/lessons/desafios?moduleId=818&classId=2743)
-- [**Agent Harness**](https://suajornadadedados.curseduca.pro/m/lessons/desafios?moduleId=818&classId=2744)
-- [**Projeto completo do desafio Agosto–Setembro**](https://suajornadadedados.curseduca.pro/m/lessons/desafios?moduleId=818&classId=2744): um projeto inteiro, do discovery à entrega
+- **Estruturação do projeto**
+- **Discovery e tomada de decisões**
+- **Agent Harness**
+- **Projeto completo do desafio Agosto–Setembro:** um projeto inteiro, do discovery à entrega
 
 Os projetos do desafio anterior também são uma boa referência: veja o [mural de projetos](../PROJETOS.md).
 
