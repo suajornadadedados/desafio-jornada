@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./assets/banner.svg" alt="Jornada de Dados — Projetos reais de IA e Dados" width="100%"/>
 
-  [**Desafio atual**](desafio-vendas/README.md) • [**Projetos da comunidade**](PROJETOS.md) • [**Como submeter**](COMO-SUBMETER.md) • [**Tirar uma dúvida**](https://github.com/suajornadadedados/desafio-jornada/discussions) • [**Comunidade**](https://suajornadadedados.com.br/)
+  [**Desafio atual**](desafio-livre/README.md) • [**Projetos da comunidade**](PROJETOS.md) • [**Como submeter**](COMO-SUBMETER.md) • [**Tirar uma dúvida**](https://github.com/suajornadadedados/desafio-jornada/discussions) • [**Comunidade**](https://suajornadadedados.com.br/)
 </div>
 
 # Desafios Jornada de Dados: Projetos Reais de IA e Dados
@@ -14,7 +14,7 @@ Este não é um repositório de exercícios. É um repositório de **portfólios
 
 Se é a sua primeira vez neste repositório, faça nesta ordem:
 
-1. **Leia o desafio:** [Agente de Vendas de Ponta a Ponta](desafio-vendas/README.md). Lá estão o pedido do cliente, o que o projeto de engenharia precisa entregar e as datas
+1. **Leia o desafio atual:** [Desafio Livre: Você Escolhe o Problema](desafio-livre/README.md). Lá estão o que o projeto de engenharia precisa entregar, as aulas de apoio e as datas
 2. **Assista ao vídeo de abertura dos desafios** na [plataforma da Jornada de Dados](https://suajornadadedados.com.br/). Ele explica o intuito desta série de projetos e como prosseguir
 3. **Escolha o seu domínio e comece a construir** no seu próprio repositório. Não precisa esperar estar pronto para aparecer: discovery bem documentado já é uma submissão válida
 
@@ -37,8 +37,8 @@ Os desafios são bimestrais: cada um fica aberto por dois meses.
 | Período | Projeto | Status |
 |---|---|---|
 | Agosto–Setembro/2026 | [Agente de Vendas de Ponta a Ponta](desafio-vendas/README.md) | Encerrado (a galeria continua recebendo cartões) |
-| Outubro–Novembro/2026 | [Em votação com a comunidade](https://github.com/suajornadadedados/desafio-jornada/discussions/categories/ideias) | Em breve |
-| Dezembro/2026–Janeiro/2027 | A anunciar | Em breve |
+| Outubro–Novembro/2026 | [Desafio Livre: Você Escolhe o Problema](desafio-livre/README.md) | **Aberto** |
+| Dezembro/2026–Janeiro/2027 | [Proponha um tema](https://github.com/suajornadadedados/desafio-jornada/discussions/categories/ideias) | Em breve |
 
 Cada pasta de desafio contém o README do desafio (o pedido do cliente, o que entregar como projeto de engenharia e as datas) e a pasta de projetos com a galeria da comunidade.
 
