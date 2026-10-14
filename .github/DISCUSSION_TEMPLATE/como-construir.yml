@@ -13,7 +13,7 @@ body:
     attributes:
       label: Desafio
       description: Em qual desafio você está trabalhando?
-      placeholder: "Agosto/2026 — Agente de Vendas de Ponta a Ponta"
+      placeholder: "Agosto–Setembro/2026 — Agente de Vendas de Ponta a Ponta"
     validations:
       required: true
 

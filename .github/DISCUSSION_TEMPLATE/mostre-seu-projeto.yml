@@ -4,7 +4,7 @@ body:
       value: |
         Projeto guardado na gaveta não muda carreira. Mostre o que você construiu, mesmo que ainda esteja pela metade.
 
-        Isto **não substitui** a submissão do cartão na galeria do mês — para isso, siga o `COMO-SUBMETER.md` na raiz do repositório. Aqui é para receber feedback dos colegas enquanto você constrói.
+        Isto **não substitui** a submissão do cartão na galeria do desafio — para isso, siga o `COMO-SUBMETER.md` na raiz do repositório. Aqui é para receber feedback dos colegas enquanto você constrói.
 
   - type: input
     id: repositorio

@@ -13,7 +13,7 @@ para ler o cartão, ou vá direto no repositório de quem construiu.
 **9 projetos** na galeria até agora.
 
 
-## Agosto/2026 — Agente de Vendas de Ponta a Ponta
+## Agosto–Setembro/2026 — Agente de Vendas de Ponta a Ponta
 
 | Projeto | Autor | Domínio | Links |
 |---|---|---|---|

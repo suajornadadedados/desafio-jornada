@@ -30,10 +30,10 @@ from cartao import (  # noqa: E402
 SAIDA = "PROJETOS.md"
 
 # Rótulo de cada desafio no mural, do mais recente para o mais antigo. Ao abrir
-# um mês novo, acrescente a linha no topo. Pasta sem rótulo aqui ainda aparece
+# um desafio novo (eles são bimestrais), acrescente a linha no topo. Pasta sem rótulo aqui ainda aparece
 # no mural, usando o próprio nome — só fica menos bonita.
 DESAFIOS = {
-    "desafio-vendas": "Agosto/2026 — Agente de Vendas de Ponta a Ponta",
+    "desafio-vendas": "Agosto–Setembro/2026 — Agente de Vendas de Ponta a Ponta",
 }
 
 CABECALHO = """<!-- ATENÇÃO: arquivo gerado por .github/scripts/gera_projetos.py

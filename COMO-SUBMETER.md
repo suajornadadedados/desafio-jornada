@@ -1,12 +1,12 @@
 # Como Submeter o Seu Projeto
 
-Você construiu (ou está construindo) o seu projeto do desafio? Então esta página é para você. Ao submeter, o seu projeto entra na galeria oficial do mês, você se torna um contribuidor deste repositório da Jornada de Dados e o seu trabalho fica visível para toda a comunidade.
+Você construiu (ou está construindo) o seu projeto do desafio? Então esta página é para você. Ao submeter, o seu projeto entra na galeria oficial do desafio, você se torna um contribuidor deste repositório da Jornada de Dados e o seu trabalho fica visível para toda a comunidade.
 
 ## Como funciona
 
 O seu projeto completo vive no **seu** repositório, no seu perfil do GitHub. É lá que está o código, a documentação e todo o histórico do seu trabalho. Isso é proposital: o portfólio é seu e fica com você.
 
-O que você submete aqui é o **cartão do seu projeto**: uma pasta com o seu nome de usuário contendo um README de apresentação e as imagens que quiser. Esse cartão entra na galeria do mês e aponta para o seu repositório completo.
+O que você submete aqui é o **cartão do seu projeto**: uma pasta com o seu nome de usuário contendo um README de apresentação e as imagens que quiser. Esse cartão entra na galeria do desafio e aponta para o seu repositório completo.
 
 **O texto do cartão é livre.** Escreva do seu jeito, com as seções que fizerem sentido para o seu projeto, com quantas imagens quiser. A gente recomenda um bloco de metadados no topo do arquivo: é dele que sai a sua linha no [mural de projetos](PROJETOS.md).
 
@@ -23,15 +23,15 @@ Siga na ordem. O processo inteiro leva uns 20 minutos e é, ele mesmo, uma prát
 
 1. **Faça um fork deste repositório** para a sua conta, usando o botão Fork no topo da página
 
-2. **Crie uma branch no seu fork** com o padrão `projeto/mes/seu-usuario`. Exemplo: `projeto/2026-08/caiomachado`
+2. **Crie uma branch no seu fork** com o padrão `projeto/desafio/seu-usuario`. Exemplo: `projeto/desafio-vendas/caiomachado`
 
-3. **Crie a sua pasta** dentro da pasta de projetos do mês correspondente. Exemplo: dentro de `desafio-vendas/projetos/`, crie a pasta `caiomachado`
+3. **Crie a sua pasta** dentro da pasta de projetos do desafio correspondente. Exemplo: dentro de `desafio-vendas/projetos/`, crie a pasta `caiomachado`
 
 4. **Publique o seu projeto** no LinkedIn e na comunidade da plataforma, e guarde os dois links para colocar no cartão. É a regra da visibilidade do desafio, e vale fazer antes da submissão justamente para não ficar para depois
 
 5. **Crie o README do seu cartão** dentro da sua pasta, de preferência começando pelo bloco de metadados do exemplo abaixo. Do bloco para baixo, escreva como quiser — inclusive com as imagens que colocar na sua pasta, como um diagrama da arquitetura ou um print do produto funcionando
 
-6. **Faça o commit**. Exemplo: `docs: adiciona projeto de caiomachado ao desafio 2026-08`
+6. **Faça o commit**. Exemplo: `docs: adiciona projeto de caiomachado ao desafio-vendas`
 
 7. **Abra o pull request** do seu fork para este repositório, com um título claro e uma breve descrição do seu projeto no corpo. O PR já abre com um modelo, mas ele é só um exemplo: use, adapte ou apague
 
@@ -46,7 +46,7 @@ Nada disso é conferido automaticamente, são só coisas que ajudam o seu cartã
 - Repositório do projeto público, com o link no cartão
 - Um README no seu repositório explicando como rodar o projeto
 - Links do LinkedIn e da plataforma apontando para os **posts**, não para o seu perfil
-- Pasta com o seu usuário do GitHub, dentro do mês correto
+- Pasta com o seu usuário do GitHub, dentro do desafio correto
 - Só o cartão e as imagens aqui; o código fica no seu repositório
 - Nenhum dado real ou informação sensível
 
@@ -100,14 +100,14 @@ Seja generoso na última. É a parte que a comunidade mais lê.
 
 ## Regras da galeria
 
-- Um cartão por pessoa por mês. Você pode participar de todos os meses, e quem participa de vários entra no Hall dos Construtores no README principal
+- Um cartão por pessoa por desafio. Você pode participar de todos os desafios, e quem participa de vários entra no Hall dos Construtores no README principal
 - Projetos em qualquer estágio são bem-vindos. Um discovery bem documentado já é uma submissão válida; atualize o cartão via novo PR conforme o projeto evolui
 - O cartão deve ser do seu próprio projeto, com um case inventado por você: negócio, cliente e produto com nome próprio
 - Seja generoso na seção de aprendizados. É a parte que a comunidade mais lê
 
 ## Depois do merge
 
-Projetos na galeria podem ser comentados na live exclusiva para alunos, e os que mais se destacarem aparecem no vídeo de encerramento do mês no canal da Jornada de Dados e nas nossas redes, sempre com os devidos créditos. Compartilhe o seu cartão no LinkedIn marcando a Jornada: a gente adora repostar projeto de aluno.
+Projetos na galeria podem ser comentados na live exclusiva para alunos, e os que mais se destacarem aparecem no vídeo de encerramento do desafio no canal da Jornada de Dados e nas nossas redes, sempre com os devidos créditos. Compartilhe o seu cartão no LinkedIn marcando a Jornada: a gente adora repostar projeto de aluno.
 
 **Travou em algum passo?** Pergunte na categoria [**Como construir**](https://github.com/suajornadadedados/desafio-jornada/discussions/new?category=como-construir) nas Discussions: alguém já passou por isso, e a resposta serve para quem vier depois. Se o seu PR já está aberto, comente nele mesmo: fica tudo no mesmo lugar.
 
