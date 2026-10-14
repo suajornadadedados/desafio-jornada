@@ -25,7 +25,6 @@ from cartao import (  # noqa: E402
     le_metadados,
     procura_cartoes,
     utf8_no_console,
-    valida_metadados,
 )
 
 SAIDA = "PROJETOS.md"
@@ -59,14 +58,16 @@ entra no mural logo depois que o seu pull request é aceito.
 
 
 def linha_de_links(dados):
-    links = [f"[repo]({dados['repositorio']})"]
+    links = []
+    if dados.get("repositorio"):
+        links.append(f"[repo]({dados['repositorio']})")
     if dados.get("linkedin"):
         links.append(f"[linkedin]({dados['linkedin']})")
     if dados.get("plataforma"):
         links.append(f"[comunidade]({dados['plataforma']})")
     if dados.get("video"):
         links.append(f"[vídeo]({dados['video']})")
-    return " · ".join(links)
+    return " · ".join(links) or "—"
 
 
 def escapa(texto):
@@ -78,19 +79,11 @@ def monta():
     utf8_no_console()
 
     por_desafio = {}
-    ignorados = []
 
+    # Nada é validado: o que o cartão não disser vira um valor padrão, e o
+    # projeto entra no mural do mesmo jeito.
     for desafio, usuario, caminho in procura_cartoes("."):
-        dados, erros_leitura = le_metadados(caminho)
-        problemas = erros_leitura + (
-            valida_metadados(dados, usuario_da_pasta=usuario) if dados else []
-        )
-        if problemas:
-            # Cartão quebrado na main não derruba o mural inteiro: fica de fora
-            # e o log diz por quê. Isso só acontece se algo entrou sem passar
-            # pela validação do PR.
-            ignorados.append((caminho, problemas[0]))
-            continue
+        dados = le_metadados(caminho)
         por_desafio.setdefault(desafio, []).append((usuario, dados))
 
     ordem = [d for d in DESAFIOS if d in por_desafio]
@@ -118,25 +111,22 @@ def monta():
                 "| [{projeto}]({cartao}) "
                 "| {autor} ([@{usuario}](https://github.com/{usuario})) "
                 "| {dominio} | {links} |".format(
-                    projeto=escapa(dados["projeto"]),
+                    projeto=escapa(dados.get("projeto") or usuario),
                     cartao=cartao,
-                    autor=escapa(dados["autor"]),
+                    autor=escapa(dados.get("autor") or usuario),
                     usuario=usuario,
-                    dominio=escapa(dados["dominio"]),
+                    dominio=escapa(dados.get("dominio") or "—"),
                     links=linha_de_links(dados),
                 )
             )
         partes.append("")
 
     partes.append(RODAPE)
-    return "\n".join(partes).rstrip() + "\n", ignorados
+    return "\n".join(partes).rstrip() + "\n"
 
 
 def main():
-    conteudo, ignorados = monta()
-
-    for caminho, motivo in ignorados:
-        print(f"AVISO: `{caminho}` ficou de fora do mural — {motivo}", file=sys.stderr)
+    conteudo = monta()
 
     atual = ""
     if os.path.isfile(SAIDA):

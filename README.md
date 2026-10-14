@@ -50,15 +50,15 @@ O seu projeto completo vive no **seu** repositório. O que entra aqui é só o *
 |---|---|
 | Código, documentação, histórico de commits, CI | Uma pasta com o seu usuário, um README de apresentação e as imagens que quiser |
 
-O texto do cartão é livre: escreva do seu jeito. A única parte obrigatória é o bloco de metadados no topo, e é dele que sai a sua linha no mural de **[PROJETOS.md](PROJETOS.md)**.
+O texto do cartão é livre: escreva do seu jeito. Se quiser, comece com o bloco de metadados do exemplo: é dele que sai a sua linha no mural de **[PROJETOS.md](PROJETOS.md)**.
 
 O caminho é o mesmo de qualquer contribuição de código no mundo real:
 
 **fork → branch → cartão → pull request → revisão → merge**
 
-Ao abrir o pull request, um modelo já aparece preenchido com o checklist da galeria. Se todos os itens estiverem marcados, a revisão é rápida.
+Ao abrir o pull request, aparece um modelo de descrição. Ele é só um exemplo: use, adapte ou apague. Não tem validação automática, quem revisa é uma pessoa.
 
-O passo a passo completo, o modelo do cartão e as regras da galeria estão em **[COMO-SUBMETER.md](COMO-SUBMETER.md)**. Leva uns 20 minutos.
+O passo a passo completo, um exemplo de cartão e as regras da galeria estão em **[COMO-SUBMETER.md](COMO-SUBMETER.md)**. Leva uns 20 minutos.
 
 ## A regra da visibilidade
 
@@ -68,7 +68,7 @@ Projeto guardado na gaveta não muda carreira. Por isso, participar do desafio i
 - [ ] **Publique no LinkedIn.** Publique um post contando o projeto ou a experiência: o que construiu, uma decisão difícil que tomou, um aprendizado honesto. Marque a [Jornada de Dados](https://www.linkedin.com/company/jornadadedados/posts/?feedView=all), porque a gente adora repostar projeto de aluno, e cada repost amplia o seu alcance
 - [ ] **Publique na plataforma da Jornada.** Compartilhe seu projeto na [comunidade da plataforma](https://suajornadadedados.com.br/) para receber feedback dos colegas e dos instrutores, e para inspirar quem está começando o desafio depois de você
 
-Os dois links de publicação são **campos obrigatórios do cartão**, então publique antes de submeter. Não é burocracia: é o que impede o passo mais importante para a sua carreira de ficar para depois e nunca acontecer.
+Vale colocar os dois links de publicação no seu cartão, por isso publique antes de submeter. Não é burocracia: é o que impede o passo mais importante para a sua carreira de ficar para depois e nunca acontecer.
 
 Quem cumpre os três não está fazendo favor para a Jornada. Está construindo presença pública como engenheiro, com prova de trabalho real. A diferença entre quem é visto no mercado e quem não é raramente está na competência: está na visibilidade da competência.
 

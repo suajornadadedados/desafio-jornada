@@ -2,13 +2,5 @@
 # O GitHub pede revisão automaticamente de quem estiver listado aqui.
 # Só vale para quem tem acesso de escrita no repositório.
 
-# Padrão: tudo passa por um dos mantenedores
-*                       @caio-moliveira @vbluuiza
-
-# O material dos desafios é o contrato com a comunidade:
-# mudança aqui altera o que foi pedido para quem já está construindo
-/desafio-vendas/README.md   @caio-moliveira @vbluuiza
-/COMO-SUBMETER.md           @caio-moliveira @vbluuiza
-
-# Configuração do repositório, validação e templates
-/.github/               @caio-moliveira @vbluuiza
+# Todo PR passa pelo mantenedor
+*                       @caio-moliveira

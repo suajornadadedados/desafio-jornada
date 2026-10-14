@@ -8,7 +8,7 @@ O seu projeto completo vive no **seu** repositório, no seu perfil do GitHub. É
 
 O que você submete aqui é o **cartão do seu projeto**: uma pasta com o seu nome de usuário contendo um README de apresentação e as imagens que quiser. Esse cartão entra na galeria do mês e aponta para o seu repositório completo.
 
-**O texto do cartão é livre.** Escreva do seu jeito, com as seções que fizerem sentido para o seu projeto, com quantas imagens quiser. A única parte obrigatória é o bloco de metadados no topo do arquivo: é dele que sai a sua linha no [mural de projetos](PROJETOS.md).
+**O texto do cartão é livre.** Escreva do seu jeito, com as seções que fizerem sentido para o seu projeto, com quantas imagens quiser. A gente recomenda um bloco de metadados no topo do arquivo: é dele que sai a sua linha no [mural de projetos](PROJETOS.md).
 
 | O que fica no SEU repositório | O que entra AQUI (galeria) |
 |---|---|
@@ -27,32 +27,32 @@ Siga na ordem. O processo inteiro leva uns 20 minutos e é, ele mesmo, uma prát
 
 3. **Crie a sua pasta** dentro da pasta de projetos do mês correspondente. Exemplo: dentro de `desafio-vendas/projetos/`, crie a pasta `caiomachado`
 
-4. **Publique o seu projeto** no LinkedIn e na comunidade da plataforma, e guarde os dois links: eles são obrigatórios no cartão. É a regra da visibilidade do desafio, e ela vem antes da submissão justamente para não ficar para depois
+4. **Publique o seu projeto** no LinkedIn e na comunidade da plataforma, e guarde os dois links para colocar no cartão. É a regra da visibilidade do desafio, e vale fazer antes da submissão justamente para não ficar para depois
 
-5. **Crie o README do seu cartão** dentro da sua pasta, começando pelo bloco de metadados do modelo abaixo. Do bloco para baixo, escreva como quiser — inclusive com as imagens que colocar na sua pasta, como um diagrama da arquitetura ou um print do produto funcionando
+5. **Crie o README do seu cartão** dentro da sua pasta, de preferência começando pelo bloco de metadados do exemplo abaixo. Do bloco para baixo, escreva como quiser — inclusive com as imagens que colocar na sua pasta, como um diagrama da arquitetura ou um print do produto funcionando
 
-6. **Faça o commit** seguindo um padrão consistente. Exemplo: `docs: adiciona projeto de caiomachado ao desafio 2026-08`
+6. **Faça o commit**. Exemplo: `docs: adiciona projeto de caiomachado ao desafio 2026-08`
 
-7. **Abra o pull request** do seu fork para este repositório, com um título claro e uma breve descrição do seu projeto no corpo
+7. **Abra o pull request** do seu fork para este repositório, com um título claro e uma breve descrição do seu projeto no corpo. O PR já abre com um modelo, mas ele é só um exemplo: use, adapte ou apague
 
-8. **Aguarde a revisão.** Assim que o PR abre, uma validação automática confere o bloco de metadados e avisa no próprio PR se faltou alguma coisa. Passando nela, a revisão humana olha o conteúdo do projeto. Se algo precisar de ajuste, comentamos no PR, como em qualquer revisão de código do mundo real
+8. **Aguarde a revisão.** Não tem validação automática: quem olha o seu PR é uma pessoa. Se algo precisar de ajuste, comentamos no PR, como em qualquer revisão de código do mundo real
 
 9. **Merge feito, você está na galeria.** O [mural de projetos](PROJETOS.md) é atualizado em seguida pela manutenção do repositório, com a sua linha montada a partir dos metadados do cartão. Seu nome entra na lista de contribuidores do repositório da Jornada de Dados e seu projeto fica visível para toda a comunidade
 
-## Checklist antes de abrir o PR
+## Dicas antes de abrir o PR
 
-- [ ] Meu repositório de projeto é público e o link está correto no cartão
-- [ ] Meu repositório tem README próprio com instruções de como rodar o projeto
-- [ ] O bloco de metadados está no topo do cartão, com todos os campos obrigatórios preenchidos
-- [ ] Os links do LinkedIn e da plataforma são dos **posts**, não do meu perfil
-- [ ] A pasta tem o meu nome de usuário do GitHub, em letras minúsculas, igual ao campo `usuario`
-- [ ] A pasta está dentro do mês correto
-- [ ] Não incluí código do projeto aqui, apenas o cartão e as imagens
-- [ ] Não incluí nenhum dado real ou informação sensível
+Nada disso é conferido automaticamente, são só coisas que ajudam o seu cartão:
+
+- Repositório do projeto público, com o link no cartão
+- Um README no seu repositório explicando como rodar o projeto
+- Links do LinkedIn e da plataforma apontando para os **posts**, não para o seu perfil
+- Pasta com o seu usuário do GitHub, dentro do mês correto
+- Só o cartão e as imagens aqui; o código fica no seu repositório
+- Nenhum dado real ou informação sensível
 
 ## O bloco de metadados
 
-Esta é a **única parte obrigatória** do cartão. Ela vai no topo do arquivo, entre duas linhas de `---`, sem nada antes. É daqui que sai a sua linha no [mural de projetos](PROJETOS.md).
+Não é obrigatório, mas é daqui que sai a sua linha no [mural de projetos](PROJETOS.md). Ele vai no topo do arquivo, entre duas linhas de `---`, sem nada antes. Este é só um exemplo: preencha os campos que fizerem sentido. Sem o bloco, o seu projeto ainda entra no mural, só que identificado pelo nome da pasta.
 
 ```markdown
 ---
@@ -67,22 +67,22 @@ video: https://youtu.be/abcdefghijk
 ---
 ```
 
-| Campo | Obrigatório | O que é |
-|---|---|---|
-| `projeto` | sim | O nome do seu projeto, como aparece no mural |
-| `autor` | sim | Seu nome, como você quer ser creditado |
-| `usuario` | sim | Seu usuário do GitHub, em minúsculas. Precisa ser igual ao nome da pasta |
-| `dominio` | sim | O negócio que você escolheu: petshop, clínica, imobiliária... |
-| `repositorio` | sim | Link do seu repositório público no GitHub |
-| `linkedin` | sim | Link do **post** sobre o projeto, começando com `https://www.linkedin.com/posts/` |
-| `plataforma` | sim | Link do seu post na comunidade, começando com `https://suajornadadedados.curseduca.pro/m/community/posts/` |
-| `video` | não | Uma demo em vídeo, se você gravou |
+| Campo | O que é |
+|---|---|
+| `projeto` | O nome do seu projeto, como aparece no mural |
+| `autor` | Seu nome, como você quer ser creditado |
+| `usuario` | Seu usuário do GitHub |
+| `dominio` | O negócio que você escolheu: petshop, clínica, imobiliária... |
+| `repositorio` | Link do seu repositório no GitHub |
+| `linkedin` | Link do **post** sobre o projeto |
+| `plataforma` | Link do seu post na comunidade |
+| `video` | Uma demo em vídeo, se você gravou |
 
-Sobre os links, a validação confere só isso: que existem e que começam com o endereço certo. Ela não abre o link nem confere o que tem dentro. O que ela pega é o erro comum de colar o **perfil** no lugar do **post** — o link do post você consegue no botão de compartilhar da própria publicação.
+Algumas dicas sobre o bloco:
 
-Um detalhe que reprova o PR e é fácil de evitar: **se o valor tiver dois-pontos, use aspas.** `projeto: "Clínica: agenda e triagem"`, senão o bloco não é lido corretamente.
-
-Opcional, mas recomendado: o botão de compartilhar do LinkedIn cola um `?utm_source=share&...&rcm=...` no fim da URL, e esse `rcm` identifica a conta que copiou o link. Não reprova nada, mas cortar tudo a partir do `?` deixa o seu cartão mais limpo.
+- O erro mais comum nos links é colar o **perfil** no lugar do **post**. O link do post você consegue no botão de compartilhar da própria publicação
+- Se o valor tiver dois-pontos, use aspas: `projeto: "Clínica: agenda e triagem"`, senão o GitHub não mostra o bloco direito
+- O botão de compartilhar do LinkedIn cola um `?utm_source=share&...&rcm=...` no fim da URL, e esse `rcm` identifica a conta que copiou o link. Cortar tudo a partir do `?` deixa o seu cartão mais limpo
 
 ## Do bloco para baixo, é seu
 
