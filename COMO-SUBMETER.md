@@ -23,15 +23,15 @@ Siga na ordem. O processo inteiro leva uns 20 minutos e é, ele mesmo, uma prát
 
 1. **Faça um fork deste repositório** para a sua conta, usando o botão Fork no topo da página
 
-2. **Crie uma branch no seu fork** com o padrão `projeto/desafio/seu-usuario`. Exemplo: `projeto/desafio-vendas/caiomachado`
+2. **Crie uma branch no seu fork** com o padrão `projeto/desafio/seu-usuario`. Exemplo: `projeto/desafio-livre/caiomachado`
 
-3. **Crie a sua pasta** dentro da pasta de projetos do desafio correspondente. Exemplo: dentro de `desafio-vendas/projetos/`, crie a pasta `caiomachado`
+3. **Crie a sua pasta** dentro da pasta de projetos do desafio correspondente. Exemplo: dentro de `desafio-livre/projetos/`, crie a pasta `caiomachado`
 
 4. **Publique o seu projeto** no LinkedIn e na comunidade da plataforma, e guarde os dois links para colocar no cartão. É a regra da visibilidade do desafio, e vale fazer antes da submissão justamente para não ficar para depois
 
 5. **Crie o README do seu cartão** dentro da sua pasta, de preferência começando pelo bloco de metadados do exemplo abaixo. Do bloco para baixo, escreva como quiser — inclusive com as imagens que colocar na sua pasta, como um diagrama da arquitetura ou um print do produto funcionando
 
-6. **Faça o commit**. Exemplo: `docs: adiciona projeto de caiomachado ao desafio-vendas`
+6. **Faça o commit**. Exemplo: `docs: adiciona projeto de caiomachado ao desafio-livre`
 
 7. **Abra o pull request** do seu fork para este repositório, com um título claro e uma breve descrição do seu projeto no corpo. O PR já abre com um modelo, mas ele é só um exemplo: use, adapte ou apague
 
