@@ -127,9 +127,9 @@ Os projetos do desafio anterior também são uma boa referência: veja o [mural 
 
 | Período | O que acontece |
 |---|---|
-| Outubro/2026 | Desafio aberto |
+| 15/10/2026 | Desafio aberto |
 | Ao longo do desafio | Perguntas respondidas nas Discussions; projetos na galeria podem ser comentados na live exclusiva para alunos |
-| Fim de novembro/2026 | Data de referência: submeta o seu cartão à galeria e avance o quanto conseguir |
+| Última semana de novembro/2026 (dia a confirmar) | Data de referência: submeta o seu cartão à galeria e avance o quanto conseguir |
 | Depois | O desafio continua aberto, com a galeria recebendo cartões. A data existe para dar ritmo; o método fica |
 
 Projetos em diferentes estágios são bem-vindos. Um discovery bem feito, com PRD e ADRs sólidos, já é uma entrega valiosa mesmo com a implementação no começo.
