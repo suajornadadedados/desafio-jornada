@@ -37,7 +37,7 @@ Os desafios são bimestrais: cada um fica aberto por dois meses.
 | Período | Projeto | Status |
 |---|---|---|
 | Agosto–Setembro/2026 | [Agente de Vendas de Ponta a Ponta](desafio-vendas/README.md) | Encerrado (a galeria continua recebendo cartões) |
-| Outubro–Novembro/2026 | [Desafio Livre: Você Escolhe o Problema](desafio-livre/README.md) | **Aberto** |
+| Outubro–Dezembro/2026 | [Desafio Livre: Você Escolhe o Problema](desafio-livre/README.md) | **Aberto** |
 | Dezembro/2026–Janeiro/2027 | [Proponha um tema](https://github.com/suajornadadedados/desafio-jornada/discussions/categories/ideias) | Em breve |
 
 Cada pasta de desafio contém o README do desafio (o pedido do cliente, o que entregar como projeto de engenharia e as datas) e a pasta de projetos com a galeria da comunidade.
