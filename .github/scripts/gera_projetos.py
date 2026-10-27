@@ -33,7 +33,7 @@ SAIDA = "PROJETOS.md"
 # um desafio novo (eles são bimestrais), acrescente a linha no topo. Pasta sem rótulo aqui ainda aparece
 # no mural, usando o próprio nome — só fica menos bonita.
 DESAFIOS = {
-    "desafio-livre": "Outubro–Novembro/2026 — Desafio Livre: Você Escolhe o Problema",
+    "desafio-livre": "Outubro–Dezembro/2026 — Desafio Livre: Você Escolhe o Problema",
     "desafio-vendas": "Agosto–Setembro/2026 — Agente de Vendas de Ponta a Ponta",
 }
 
